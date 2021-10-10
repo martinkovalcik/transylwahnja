@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <title>:: Ranč Transylwahnja - Rodinná biofarma :: </title>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name="keywords" content="KOMPOST, BIO FARMA, UBYTOVANIE, SHIRE
+         HORSE, DOVOLENKA , TURISTIKA, ŠVAJČIARI, JERSEY, FERIEN AUF DEM BIOHOF, BIOPRODUKT, Rodinná farma, biofarma">
+</head>
+
+<body>
+    <header>
+        <div id="header_image">
+            <img src="public/img/title.jpg" height="91" width="477" alt="Transylwahnja title">
+        </div>
+        <div id="language_flags">
+            <ul>
+                <li>
+                    <a href="./de/"><img src="public/img/deutsch.gif" width="38" height="26" alt="deutche sprache"></a>
+                </li>
+                <li>
+                    <a href="/"><img src="public/img/slovak.gif" width="38" height="26" alt="slovenský jazyk"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="date_panel">
+            <script>
+                var mesiace = new Array("január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september", "október", "november", "december");
+                var dni_v_tyzdni = new Array("nedeľa", "pondelok", "utorok", "streda", "štvrtok", "piatok", "sobota");
+                var dnes = new Date();
+                var el = document.getElementById("date_panel");
+                el.textContent = "Dnes je " + dni_v_tyzdni[dnes.getDay()] + " " + dnes.getDate() + "." + mesiace[dnes.getMonth()] + " " + dnes.getFullYear();
+            </script>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="onas.html">O nás</a></li>
+            <li><a href="biofarma.html">Biofarma</a></li>
+            <li><a href="kompostovanie.html">Kompostovanie</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <aside id="info_banner">
+            Internetová stránka Ranču Transylwahnja sprístupňuje informácie o chove koní, komposte, ekologickom
+            poľnohospodárstve a výrobe domácich potravín rodiny Pipovcov. Uplatňuje princípy <a
+                href="http://www.agrowebcee.net" target="_blank"><b>AgroWeb Networku</b></a>, ktorého cieľom je výmena
+            skúseností medzi agro-ekologicky zameranými ľuďmi, organizáciami a farmami produkujúcimi biopotraviny.
+        </aside>
+        <section id="news_list">
+            <h2>Čo nového na ranči</h2>
+            <article class="newsflash">
+                <img src="public/foto/20200709ZivotNaFarme_m.jpg" alt="Život na farme"
+                    data-big-picture="public/foto/20200709ZivotNaFarme.jpg">
+                <time datetime="2020-07-01">júl 2020</time>
+                <h3>Výnimočná situacia vo svete? Tu to necítiť, tu je pokoj.</h3>
+                <p>Teraz, v roku 2020 tu žijú 3 kone a dva poníky. Spomínam si, že pred 20 rokmi som tu mala 24 koní, 2
+                    kravy, 2 teliatka,
+                    5 psov a kopu mačiek.
+                </p>
+            </article>
+            <article class="newsflash">
+                <img src="public/foto/20200724XGorgeiMemorialTour_m.jpg" alt="X Görgej Memorial Tour"
+                    data-big-picture="public/foto/20200724XGorgeiMemorialTour.jpg">
+                <time datetime="2020-07-01">júl 2020</time>
+                <h3>X Görgej Memorial Tour</h3>
+                <p>80 koní, aj s príchodom dokopy 4 dni v sedle a 150 km - neskutočné dobrodružstvo a pamiatka
+                </p>
+            </article>
+            <article class="newsflash">
+                <img src="public/foto/20200722PerseusXT_m.jpg" alt="Perzeus a XT"
+                    data-big-picture="public/foto/20200722PerseusXT.jpg">
+                <time datetime="2019-07-01">júl 2020</time>
+                <h3>Perzeus a XT</h3>
+                <p>Spoločné vychádzky sú obľúbené. Niektorí majú radšej kone v motore.</p>
+            </article>
+        </section>
+        <section class="pagination">
+            <h1>Archív noviniek</h1>
+            <ul>
+                <li>1</li>
+                <li><a href="ranc.php?page_id=2">2</a></li>
+                <li><a href="ranc.php?page_id=3">3</a></li>
+                <li><a href="ranc.php?page_id=4">4</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <aside id="right_panel">
+        <section>
+            <h2>Strategickí partneri</h2>
+            <ul>
+                <li><a href="http://www.ffmm.sk">Mašekov Mlyn, Vráble</a></li>
+                <li><a href="http://www.biospotrebitel.sk">Biospotrebiteľ</a></li>
+                <li><a href="http://www.ekoprodukt.sk">Ekoprodukt</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <footer>
+        &copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2021
+    </footer>
+
+</body>
+</html>

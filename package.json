@@ -1,0 +1,26 @@
+{
+  "name": "transylwahnja",
+  "version": "1.0.0",
+  "description": "webpage of transylwahnja.eu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc-watch --onSuccess \"node ./dist/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.kosickaakademia.sk/wt2021/transylwahnja.git"
+  },
+  "author": "Peter Gurský",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.4.3"
+  }
+}
