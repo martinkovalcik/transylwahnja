@@ -1,0 +1,41 @@
+[
+  { 
+    "bigImage" : "/foto/20200709ZivotNaFarme.jpg",
+    "smallImage" : "/foto/20200709ZivotNaFarme_m.jpg",
+    "imageTitleSk": "Život na farme",
+    "imageTitleDe": "Leben auf einem Bauernhof",
+    "dateTime": "2020-07-01",
+    "dateLabelSk": "júl 2020",
+    "dateLabelDe": "Juli 2020",
+    "titleSk": "Výnimočná situacia vo svete? Tu to necítiť, tu je pokoj.",
+    "titleDe": "Aussergewähnliche Lage der Welt? Hier in unserem Tal ist davon nichts zu spüren.",
+    "textSk" : "Teraz, v roku 2020 tu žijú 3 kone a dva poníky. Spomínam si, že pred 20 rokmi som tu mala 24 koní, 2 kravy, 2 teliatka, 5 psov a kopu mačiek.",
+    "textDe" : "Vor 20 Jahren war die Ranch in voller Pracht. Es lebten hier 24 Pferde, 2 Kühe, 2 Kälber 5 Hunde und einige Katzen. Nun im Jahr 2020 sind wir noch auf Sparflamme mit 3 ältern Pferden und 2 Ponys. Ihr werdet sehen es geht Aufwärts ;)"
+   },
+   { 
+    "bigImage" : "/foto/20200724XGorgeiMemorialTour.jpg",
+    "smallImage" : "/foto/20200724XGorgeiMemorialTour_m.jpg",
+    "imageTitleSk": "X Görgej Memorial Tour",
+    "imageTitleDe": "X Görgej Memorial Tour",
+    "dateTime": "2020-07-01",
+    "dateLabelSk": "júl 2020",
+    "dateLabelDe": "Juli 2020",
+    "titleSk": "X Görgej Memorial Tour",
+    "titleDe": "X Görgej Memorial Tour",
+    "textSk" : "80 koní, aj s príchodom dokopy 4 dni v sedle a 150 km - neskutočné dobrodružstvo a pamiatka",
+    "textDe" : "Zweite Teilnahme am hystorischen Gedenkritt des Husaren General Görgei, wir waren mit einer Gruppe von 80 Pferden 4 Tage im Sattel und haben 150km zurückgelegt. Unbeschreiblich!!!"
+   },
+   { 
+    "bigImage" : "/foto/20200722PerseusXT.jpg",
+    "smallImage" : "/foto/20200722PerseusXT_m.jpg",
+    "imageTitleSk": "Perzeus a XT",
+    "imageTitleDe": "Perzeus und XT",
+    "dateTime": "2020-07-01",
+    "dateLabelSk": "júl 2020",
+    "dateLabelDe": "Juli 2020",
+    "titleSk": "Perzeus a XT",
+    "titleDe": "Perzeus und XT",
+    "textSk" : "Spoločné vychádzky sú obľúbené. Niektorí majú radšej kone v motore.",
+    "textDe" : "Gemeinsame Ausritte ob für Pferde oder Motorradliebhaber."
+   }
+]

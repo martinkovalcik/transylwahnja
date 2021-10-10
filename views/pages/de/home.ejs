@@ -1,0 +1,13 @@
+<aside id="info_banner">
+    Diese Webseite informiert über Kompost, Pferdezucht, Biolandwirtschaft und Herstellung von Hausproduckten. <a href="http://www.agrowebcee.net" target="_blank"><b>AgroWeb Network</b></a> hat zum Ziel den Erfahrungsaustausch zwischen agro ekologische interessierten Menschen, Organisationen und Biofarmen zu fördern.
+ </aside>
+<section id="news_list">
+  <h2>Neu</h2>
+  <%- newsGenerator(news,'de', pageNumber) %>
+</section>
+<section class="pagination">
+  <h1>Nachrichtenarchiv</h1>
+  <ul>
+    <%- paginationGenerator(news, pageNumber) %>  
+  </ul>
+</section>

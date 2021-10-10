@@ -1,0 +1,16 @@
+<aside id="info_banner">
+  Internetová stránka Ranču Transylwahnja sprístupňuje informácie o chove koní, komposte, ekologickom
+  poľnohospodárstve a výrobe domácich potravín rodiny Pipovcov. Uplatňuje princípy <a
+      href="http://www.agrowebcee.net" target="_blank"><b>AgroWeb Networku</b></a>, ktorého cieľom je výmena
+  skúseností medzi agro-ekologicky zameranými ľuďmi, organizáciami a farmami produkujúcimi biopotraviny.
+</aside>
+<section id="news_list">
+  <h2>Čo nového na ranči</h2>
+  <%- newsGenerator(news,'sk', pageNumber) %>
+</section>
+<section class="pagination">
+  <h1>Archív noviniek</h1>
+  <ul>
+    <%- paginationGenerator(news, pageNumber) %>  
+  </ul>
+</section>

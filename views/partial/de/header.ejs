@@ -1,0 +1,22 @@
+<div id="header_image">
+  <img src="/img/title.jpg" height="91" width="477" alt="Transylwahnja title">
+</div>
+<div id="language_flags">
+  <ul>
+      <li>
+          <a href="/de/home"><img src="/img/deutsch.gif" width="38" height="26" alt="deutche sprache"></a>
+      </li>
+      <li>
+          <a href="/sk/home"><img src="/img/slovak.gif" width="38" height="26" alt="slovenský jazyk"></a>
+      </li>
+  </ul>
+</div>
+<div id="date_panel">
+  <script>
+      var mesiace = new Array("Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember");
+      var dni_v_tyzdni = new Array("Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag");
+      var dnes = new Date();
+      var el = document.getElementById("date_panel");
+      el.textContent = "Heute ist " + dni_v_tyzdni[dnes.getDay()] + " " + dnes.getDate() + "." + mesiace[dnes.getMonth()] + " " + dnes.getFullYear();
+  </script>
+</div>

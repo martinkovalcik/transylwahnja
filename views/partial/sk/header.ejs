@@ -1,0 +1,34 @@
+<div id="header_image">
+  <img src="/img/title.jpg" height="91" width="477" alt="Transylwahnja title">
+</div>
+<div id="language_flags">
+  <ul>
+      <li>
+          <a href="/de/home"><img src="/img/deutsch.gif" width="38" height="26" alt="deutche sprache"></a>
+      </li>
+      <li>
+          <a href="/sk/home"><img src="/img/slovak.gif" width="38" height="26" alt="slovenský jazyk"></a>
+      </li>
+  </ul>
+</div>
+<div id="date_panel">
+  <script>
+      var mesiace = new Array("januára", "februára", "marca", "apríla", "mája", "júna", "júla", "augusta", "septembra", "októbra", "novembra", "decembra");
+      var dni_v_tyzdni = new Array("nedeľa", "pondelok", "utorok", "streda", "štvrtok", "piatok", "sobota");
+      var dnes = new Date();
+      var el = document.getElementById("date_panel");
+      el.textContent = "Dnes je " + dni_v_tyzdni[dnes.getDay()] + " " + dnes.getDate() + "." + mesiace[dnes.getMonth()] + " " + dnes.getFullYear();
+
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+
+
+  </script>
+</div>

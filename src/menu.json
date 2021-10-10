@@ -1,0 +1,15 @@
+[
+    { "local": "onas", "labelSk": "O nás", "labelDe": "Über uns" },
+    { "local": "biofarma", "labelSk": "Biofarma", "labelDe": "Biobetrieb" },
+    { "local": "kompostovanie", "labelSk": "Kompostovanie", "labelDe": "Kompost" },
+    { "local": "zvierata", "labelSk": "Zvieratá / Shirské kone", "labelDe": "Tiere / Shire Horse"},
+    { "local": "produkty", "labelSk": "Produkty", "labelDe": "Produkte" },
+    { "local": "turistika", "labelSk": "Turistika", "labelDe": "Turistik" },
+    { "local": "aktivity", "labelSk": "Aktivity", "labelDe": "Aktivitäten" },
+    { "local": "praca", "labelSk": "Brigáda / Práca", "labelDe": "Arbeiter/Kurzarteiter" },
+    { "local": "media", "labelSk": "Médiá o nás", "labelDe": "In den Medien über uns" },
+    { "local": "fotogaleria", "labelSk": "Fotogaléria", "labelDe": "Fotogalerie" },
+    { "local": "ako_nas_najdete", "labelSk": "Ako nás nájdete", "labelDe": "So finden Sie uns" },
+    { "local": "kontakt", "labelSk": "Kontakt", "labelDe": "Kontakt" }
+  ]
+  

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <%- include('partial/' + lang + '/head') %>
+</head>
+<body>
+    <header>
+        <%- include('partial/' + lang + '/header') %>
+    </header>
+    <nav>
+        <%- include('partial/nav', { page, linkGenerator, menu, lang }) %>
+    </nav>
+    <main>
+        <%- include('pages/' + lang + '/' + page, {newsGenerator, news, pageNumber, paginationGenerator}) %>
+    </main>
+    <aside id="right_panel">
+        <%- include('partial/' + lang + '/right_panel') %>
+    </aside>
+    <footer>
+        <%- include('partial/footer') %>
+    </footer>
+</body>
+</html>
